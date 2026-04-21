@@ -855,7 +855,7 @@ export default function App() {
                           ) : (
                             <div className="group relative w-full h-full">
                               <img 
-                                src={lalaImage || "https://picsum.photos/seed/lala_asian_mom/900/1600"} 
+                                src={lalaImage || ""} 
                                 alt="Lala" 
                                 className="w-full h-full rounded-xl object-cover border-2 border-white shadow-sm"
                                 referrerPolicy="no-referrer"
@@ -894,7 +894,7 @@ export default function App() {
                           ) : (
                             <div className="group relative w-full h-full">
                               <img 
-                                src={lilyImage || "https://picsum.photos/seed/lily_asian_girl/900/1600"} 
+                                src={lilyImage || ""} 
                                 alt="Lily" 
                                 className="w-full h-full rounded-xl object-cover border-2 border-white shadow-sm"
                                 referrerPolicy="no-referrer"
